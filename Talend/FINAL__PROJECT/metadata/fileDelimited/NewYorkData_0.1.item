@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DelimitedFileConnection Encoding="UTF-8" EscapeChar="&quot;\&quot;&quot;" FieldSeparatorType="Tabulation" FieldSeparatorValue="&quot;\t&quot;" FilePath="/Users/pratikkpoojari/Desktop/FinalProject/NY_Motor_Vehicle_Collisions_-_Crashes_20240326.tsv" FirstLineCaption="true" FooterValue="0" HeaderValue="1" LimitValue="" RowSeparatorValue="&quot;\n&quot;" Server="Localhost 127.0.0.1" TextEnclosure="&quot;\&quot;&quot;" UseHeader="true" dataPackage="_brGR0O4cEe6jyvnjMdqtOg" id="_bq4PYO4cEe6jyvnjMdqtOg" name="NewYorkData" xmi:id="_brCncO4cEe6jyvnjMdqtOg"/>
+  <orgomg.cwm.resource.record:RecordFile dataManager="_brCncO4cEe6jyvnjMdqtOg" name="default" xmi:id="_brGR0O4cEe6jyvnjMdqtOg">
+    <ownedElement id="_JR7iIO4cEe6jyvnjMdqtOg" label="metadata" xmi:id="_brGR0e4cEe6jyvnjMdqtOg" xsi:type="TalendMetadata:MetadataTable">
+      <feature label="CRASH_DATE" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_brGR0u4cEe6jyvnjMdqtOg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CRASH_TIME" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_brGR0-4cEe6jyvnjMdqtOg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="BOROUGH" length="13" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_brGR1O4cEe6jyvnjMdqtOg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ZIP_CODE" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_brGR1e4cEe6jyvnjMdqtOg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="LATITUDE" length="9" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_brGR1u4cEe6jyvnjMdqtOg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="LONGITUDE" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_brGR1-4cEe6jyvnjMdqtOg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="LOCATION" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_brGR2O4cEe6jyvnjMdqtOg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ON_STREET_NAME" length="32" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_brGR2e4cEe6jyvnjMdqtOg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CROSS_STREET_NAME" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_brGR2u4cEe6jyvnjMdqtOg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="OFF_STREET_NAME" length="27" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_brGR2-4cEe6jyvnjMdqtOg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NUMBER_OF_PERSONS_INJURED" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_brGR3O4cEe6jyvnjMdqtOg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NUMBER_OF_PERSONS_KILLED" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_brGR3e4cEe6jyvnjMdqtOg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NUMBER_OF_PEDESTRIANS_INJURED" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_brGR3u4cEe6jyvnjMdqtOg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NUMBER_OF_PEDESTRIANS_KILLED" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_brGR3-4cEe6jyvnjMdqtOg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NUMBER_OF_CYCLIST_INJURED" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_brGR4O4cEe6jyvnjMdqtOg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NUMBER_OF_CYCLIST_KILLED" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_brGR4e4cEe6jyvnjMdqtOg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NUMBER_OF_MOTORIST_INJURED" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_brGR4u4cEe6jyvnjMdqtOg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NUMBER_OF_MOTORIST_KILLED" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_brGR4-4cEe6jyvnjMdqtOg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CONTRIBUTING_FACTOR_VEHICLE_1" length="53" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_brGR5O4cEe6jyvnjMdqtOg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CONTRIBUTING_FACTOR_VEHICLE_2" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_brGR5e4cEe6jyvnjMdqtOg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CONTRIBUTING_FACTOR_VEHICLE_3" length="11" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_brGR5u4cEe6jyvnjMdqtOg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CONTRIBUTING_FACTOR_VEHICLE_4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_brGR5-4cEe6jyvnjMdqtOg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CONTRIBUTING_FACTOR_VEHICLE_5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_brGR6O4cEe6jyvnjMdqtOg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="COLLISION_ID" length="7" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_brGR6e4cEe6jyvnjMdqtOg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="VEHICLE_TYPE_CODE_1" length="35" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_brGR6u4cEe6jyvnjMdqtOg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="VEHICLE_TYPE_CODE_2" length="35" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_brGR6-4cEe6jyvnjMdqtOg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="VEHICLE_TYPE_CODE_3" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_brGR7O4cEe6jyvnjMdqtOg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="VEHICLE_TYPE_CODE_4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_brGR7e4cEe6jyvnjMdqtOg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="VEHICLE_TYPE_CODE_5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_brGR7u4cEe6jyvnjMdqtOg" xsi:type="TalendMetadata:MetadataColumn"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_bc470be9-dd5e-4e45-8899-27f71b3104da"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>PJR3Nd0peC4REPTJUiz9+cTJM9rUYIsmezFdujnYrbXyAE7LCdu0amHuem6GfP74oycq4W6W+pBU&#13;
+/KerDjShZA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_061a396a-409d-45ba-bf30-dbda5c1674fa"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>vfQuEXTaSwe28CsfUwCg/EhYpco9SGAaUAuqcDrXG0uoiK4+1WVGM9xnwXy2Nzujo7ID5tsLjkUS&#13;
+6H+V7MrieA==</DigestValue></Reference></SignedInfo><SignatureValue>FX4wMfcsVBX6z1KyF5fZOe6ORyMzGoD9ixc56/RCmjNT1UgW7ve0fw7MUT+NCHC0lXkFiILI3OfM&#13;
+z3HS+pEsAZ9HvICLz4ja0SijK4rzxlbvAW7SetP+xEsEbFdeMq3/6ieNzhIgpmqnChmbxz3AMakH&#13;
+Ptpt0WlQlKy1gWmv/YhX4MRyHZzL9iL9sVgRwUP8hpNZa14TTn1JcPq/ILVlyAQiOrYASgylQQ/B&#13;
+nNCxJ89S6YDiuiI9WahtkYGzU7nsdIIuak5RtaXb/COh3++9xdvjbGNYMip5spFG3NnKPauipv6G&#13;
+E5qAT0jit4OGJzzrUsqEHSdE1uatBPZujIIDmg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_061a396a-409d-45ba-bf30-dbda5c1674fa" Target="#_bc470be9-dd5e-4e45-8899-27f71b3104da"><Timestamp>2024-04-03 17:55:51</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
