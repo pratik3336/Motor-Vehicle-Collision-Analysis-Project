@@ -10,6 +10,16 @@ This project involves a comprehensive analysis of motor vehicle collision data f
 - Develop a dimensional model and implement ETL processes to handle large datasets effectively.
 - Generate reports and visualizations to provide insights into accident trends and safety metrics.
 
+
+  ## Dimensional Model
+  
+  ![DM](https://github.com/pratik3336/Motor-Vehicle-Collision-Analysis-Project/assets/76115015/31ef7d71-2f0a-45f0-a8fa-1b740f6d2062)
+
+## Talend Pipelines
+
+<img width="843" alt="image" src="https://github.com/pratik3336/Motor-Vehicle-Collision-Analysis-Project/assets/76115015/6fb264fb-2879-4c64-a6f0-5156d7a4585a">
+
+
 ## Data Sources
 The data for this project is obtained from the following open data portals:
 - [NYC Open Data](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95)
