@@ -58,9 +58,9 @@ The data for this project is obtained from the following open data portals:
 
 ## Dashboards
 
-<img width="526" alt="image" src="https://github.com/pratik3336/Motor-Vehicle-Collision-Analysis-Project/assets/76115015/026aa310-d7e1-4108-9627-d24ed3639794">
+<img width="800" alt="image" src="https://github.com/pratik3336/Motor-Vehicle-Collision-Analysis-Project/assets/76115015/026aa310-d7e1-4108-9627-d24ed3639794">
 
-<img width="451" alt="image" src="https://github.com/pratik3336/Motor-Vehicle-Collision-Analysis-Project/assets/76115015/83c2ad73-5e81-4a63-882c-31c038a75251">
+<img width="800" alt="image" src="https://github.com/pratik3336/Motor-Vehicle-Collision-Analysis-Project/assets/76115015/83c2ad73-5e81-4a63-882c-31c038a75251">
 
 
 <img width="1000" alt="image" src="https://github.com/pratik3336/Motor-Vehicle-Collision-Analysis-Project/assets/76115015/3be55c85-2214-4d10-b1b0-acc94e433484">
